@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link href="styles.css" rel="stylesheet">
     <title>Weather App</title>
+    <script defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXH04lN3yl8thfntqbHz5r9nwA8vVVi4c&libraries=places"></script>
     <script defer src="script.js"></script>
   </head>
   <body>
@@ -38,7 +39,7 @@
         </div>
       </div>
       <div class="city-search-container">
-        <input type="text" class="city-search" placeholder="Enter Location">
+        <input type="text" class="city-search" data-city-search placeholder="Enter Location">
       </div>
     </div>
     <a href="https://darksky.net/poweredby" class="darksky-logo">Powered by Dark Sky</a>
